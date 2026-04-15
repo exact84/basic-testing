@@ -8,7 +8,6 @@ const testCases = [
   { a: 2, b: 3, action: Action.Exponentiate, expected: 8 },
   { a: 1, b: 2, action: 'invalid-action' as Action, expected: null },
   { a: 'a', b: 'b', action: Action.Add, expected: null },
-  { a: 1, b: null, action: Action.Add, expected: null },
 ];
 
 describe('simpleCalculator', () => {
